@@ -3,19 +3,88 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Mazing</title>
+<title>Mazing: 3D Shape Mazes</title>
+<meta name="description" content="Swipe a ball through mazes that wrap around cubes, rings, knots and gems. 100 levels in 11 worlds for Android.">
+<meta property="og:title" content="Mazing: 3D Shape Mazes">
+<meta property="og:description" content="Swipe a ball through mazes that wrap around cubes, rings, knots and gems.">
+<meta property="og:image" content="https://scrapper-paca.github.io/mazing-site/img/og.png">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#160e30">
+<link rel="icon" href="img/favicon.png">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
 <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="home">
+
+<header class="hero">
+  <img class="hero-art" src="img/infinity.png" width="720" height="476" alt="The Mazing logo: a glowing maze shaped like an infinity sign, with an orange ball and a cyan portal">
+  <h1 class="logo">MAZING</h1>
+  <p class="tagline">Swipe. Roll. <span>Find the portal.</span></p>
+  <p class="lead">A puzzle game for Android where every maze wraps around a 3D shape.</p>
+  <p class="store-cta">Coming soon to Google Play</p>
+</header>
+
 <main>
-  <h1>MAZING</h1>
-  <p class="muted">A maze game on 3D shapes for Android.</p>
-  <p>Swipe to roll the ball across mazes that wrap around cubes, rings, knots and polyhedra. Find the keys, open
-  the doors and reach the portal in as few moves as you can.</p>
+  <section>
+    <h2>How it plays</h2>
+    <ol class="steps">
+      <li>
+        <svg viewBox="0 0 64 64" aria-hidden="true"><rect x="8" y="8" width="48" height="48" rx="6" class="ln"/><circle cx="20" cy="32" r="6" class="ball"/><path d="M30 32h20m-6-6 6 6-6 6" class="ln"/></svg>
+        <h3>Swipe</h3>
+        <p>The ball rolls until it hits a wall. One swipe is one move.</p>
+      </li>
+      <li>
+        <svg viewBox="0 0 64 64" aria-hidden="true"><path d="M10 22 32 10l22 12v22L32 56 10 44Z" class="ln"/><path d="M10 22l22 12 22-12M32 34v22" class="ln"/><circle cx="24" cy="26" r="4.5" class="ball"/></svg>
+        <h3>Roll over the edge</h3>
+        <p>Cross onto the next face of the shape and keep going.</p>
+      </li>
+      <li>
+        <svg viewBox="0 0 64 64" aria-hidden="true"><ellipse cx="32" cy="32" rx="14" ry="20" class="portal"/><ellipse cx="32" cy="32" rx="6" ry="10" class="portal-in"/></svg>
+        <h3>Reach the portal</h3>
+        <p>Beat the par for 3 stars. Use a hint or the eye view when you're stuck.</p>
+      </li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>100 levels in 11 worlds</h2>
+    <p>From a single cube to knots, polyhedra and mazes on the inside of a dome.</p>
+    <ul class="worlds">
+      <li>First Roll</li><li>Roll Around</li><li>Tetris</li><li>Builds</li><li>Symbols</li><li>Crystals</li>
+      <li>Gems &amp; Prisms</li><li>Polyhedra</li><li>Loops</li><li>InsideOut</li><li>Grand Finale</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Puzzles that grow with you</h2>
+    <ul class="mechanics">
+      <li><span class="dot crystal"></span><b>Crystals</b> Collect them all to wake the portal.</li>
+      <li><span class="dot door"></span><b>Doors and plates</b> Stop on a plate to open its coloured doors.</li>
+      <li><span class="dot tele"></span><b>Teleporters</b> Jump to the matching gate, even on another face.</li>
+      <li><span class="dot arrow"></span><b>Arrow tiles</b> They keep you rolling in their direction.</li>
+      <li><span class="dot crumble"></span><b>Crumbling tiles</b> They break behind you, so plan ahead.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Made for your phone</h2>
+    <ul class="facts">
+      <li>One-finger swipe controls</li>
+      <li>No timers, no lives, no energy bars</li>
+      <li>Calm space music</li>
+      <li>Works offline</li>
+      <li>Free, with ads. Optional videos give extra hints and looks.</li>
+    </ul>
+  </section>
+</main>
+
+<footer>
   <nav>
     <a href="privacy.html">Privacy policy</a>
-    <a href="https://github.com/scrapper-PaCa/mazing-site/issues">Contact</a>
+    <a href="mailto:cara.catalin@gmail.com">Contact</a>
   </nav>
-</main>
+  <p class="muted">&copy; 2026 scrapper</p>
+</footer>
+
 </body>
 </html>
