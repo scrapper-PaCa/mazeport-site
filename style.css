@@ -1,5 +1,5 @@
 :root {
-  --bg: #0d0824; --bg2: #160e30; --panel: #1d1440; --line: #3a2a78;
+  --bg: #08021f; --bg2: #13043d; --panel: #1a0b44; --line: #3b1f80;
   --text: #ece8ff; --muted: #a99ad6; --violet: #b39bff; --cyan: #4ff0ff; --amber: #ffb02e;
 }
 * { box-sizing: border-box; }
@@ -18,9 +18,9 @@ nav a { margin-right: 1.2em; }
 .home h2 { font-size: 1.5rem; color: var(--text); margin: 0 0 16px; }
 .hero {
   text-align: center; padding: 40px 16px 56px;
-  background: radial-gradient(ellipse 70% 60% at 50% 35%, #3a2270 0%, var(--bg2) 55%, var(--bg) 100%);
+  background: radial-gradient(ellipse 70% 60% at 50% 35%, #1d0a52 0%, var(--bg2) 55%, var(--bg) 100%);
 }
-.hero-art { width: min(520px, 90vw); height: auto; display: block; margin: 0 auto; }
+.hero-art { width: min(440px, 80vw); height: auto; display: block; margin: 0 auto; filter: drop-shadow(0 0 24px #8a3cff88); }
 .logo {
   font-size: clamp(2.6rem, 11vw, 4.6rem); font-weight: 900; letter-spacing: 0.14em; color: #fff;
   margin: 8px 0 4px; text-shadow: 0 0 18px var(--violet), 0 0 40px #7f5cff;
